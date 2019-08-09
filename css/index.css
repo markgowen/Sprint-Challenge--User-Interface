@@ -318,6 +318,10 @@ footer nav a {
 
 /* about.html css */
 
+/* * {
+  border: 1px solid black !important;
+} */
+
 .about-page {
   width: 800px;
 }
@@ -329,24 +333,38 @@ footer nav a {
 .about-middle-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 10px;
   text-align: left;
   padding: 30px;
 }
 
 .strategy,
-.how-we-work,
+.work,
 .places,
 .collab {
-  width: 50%;
+  width: 46%;
   display: flex;
-  justify-content: center;
+
+  justify-content: space-around;
   flex-direction: column;
   text-align: left;
-  padding: 10px;
-  margin-bottom: 30px;
   border-bottom: 1px dashed black;
+}
+
+.strategy,
+.places {
+  margin-right: 15px;
+}
+
+.work,
+.collab {
+  margin-left: 15px;
+}
+
+.strategy,
+.work {
+  margin-bottom: 30px;
 }
 
 h2 {
