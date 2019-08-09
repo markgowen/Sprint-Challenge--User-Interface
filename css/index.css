@@ -169,15 +169,15 @@ nav {
   font-size: 12px;
 }
 
+.navLinks a {
+  color: black;
+}
+
+
 .logo-container {
   margin-left: 20px;
   margin-right: 40px;
 }
-
-/* .logo {
-    display: flex;
-    align-content: flex-start;
-} */
 
 .img {
   width: 800px;
@@ -222,19 +222,9 @@ nav {
   justify-content: space-evenly;
 }
 
-.middle-content .boxes .box1,
-.box2,
-.box3,
-.box4,
-.box5,
-.box6,
-.box7,
-.box8,
-.box9,
-.box10 {
+.middle-content .boxes * {
   width: 12.5%;
   height: 100px;
-  background: black;
   margin: 20px 2.5%;
   color: white;
   display: flex;
@@ -318,9 +308,6 @@ footer nav a {
 
 /* about.html css */
 
-/* * {
-  border: 1px solid black !important;
-} */
 
 .about-page {
   width: 800px;
@@ -345,7 +332,6 @@ footer nav a {
 .collab {
   width: 46%;
   display: flex;
-
   justify-content: space-around;
   flex-direction: column;
   text-align: left;
