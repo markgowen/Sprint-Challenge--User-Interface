@@ -315,3 +315,64 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/* about.html css */
+
+.about-page {
+  width: 800px;
+  display: flex;
+  padding: 30px;
+  border-bottom: 1px dashed black;
+}
+
+/* .about-content .about-text-container {
+    width: 800px;
+    padding: 0 1%;
+    padding-bottom: 20px;
+} */
+
+/* .about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px auto;
+  border-bottom: 1px dashed black;
+} */
+
+/* * {
+  border: 1px solid black !important;
+} */
+
+.about-middle-content {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 30px;
+}
+
+.strategy,
+.how-we-work,
+.places,
+.collab {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.about-bottom-content .work-text-container {
+  width: 800px;
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
